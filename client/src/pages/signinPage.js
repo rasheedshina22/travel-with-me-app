@@ -16,8 +16,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Redirect } from 'react-router-dom';
 import API from '../utils/API'
 // import IconButton from '@material-ui-core-IconButton'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 
 //Styling
@@ -247,12 +247,12 @@ export default function SignInSide(props) {
 
             <form className={classes.form} noValidate>
 
-            <p className="bounce">
+            {/* <p className="bounce">
               <span className="bounceUpperText">
                 <FontAwesomeIcon icon={faArrowAltCircleDown}></FontAwesomeIcon>
                 &nbsp;Username:&nbsp;
               </span>
-              <span className="bounce bounceLowerText">demo</span></p>
+              <span className="bounce bounceLowerText">demo</span></p> */}
 
               <TextField
                 variant="outlined"
@@ -267,12 +267,12 @@ export default function SignInSide(props) {
                 onChange={handleInputChangeUserName}
               />
               
-            <p className="bounce">
+            {/* <p className="bounce">
               <span className="bounceUpperText">
               <FontAwesomeIcon icon={faArrowAltCircleDown}></FontAwesomeIcon>
                 &nbsp;Password:&nbsp;
               </span>
-              <span className="bounce bounceLowerText">demo</span></p>
+              <span className="bounce bounceLowerText">demo</span></p> */}
 
               <TextField
                 variant="outlined"
