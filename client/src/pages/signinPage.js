@@ -253,7 +253,9 @@ export default function SignInSide(props) {
                 &nbsp;Username:&nbsp;
               </span>
               <span className="bounce bounceLowerText">demo</span></p> */}
-
+<strong>Username</strong> demo
+<br/>
+<strong>Password</strong> demo
               <TextField
                 variant="outlined"
                 margin="normal"
